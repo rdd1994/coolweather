@@ -22,7 +22,7 @@ public class Forecast {
         public String info;
     }
 
-    private class Temperature {
+    public class Temperature {
 
         public String max;
 
