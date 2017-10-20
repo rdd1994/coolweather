@@ -8,6 +8,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -22,6 +23,7 @@ import com.raisesail.coolweather.util.HttpUitl;
 import com.raisesail.coolweather.util.Utility;
 
 import java.io.IOException;
+import java.util.zip.Inflater;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -182,7 +184,7 @@ public class WeatherActivity extends AppCompatActivity {
 
                         }
                         swipeRefresh.setRefreshing(false);
-                        
+
 
                     }
                 });
